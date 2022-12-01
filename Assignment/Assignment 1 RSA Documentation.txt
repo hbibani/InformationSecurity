@@ -1,0 +1,21 @@
+a.	IDENTIFICATION
+
+Name: Heja Bibani
+Student No: 16301173
+Subject: Information Security
+Project: Assignment 1
+
+b.	INSTRUCTIONS:
+
+COMPILE: gcc RSA.c -o RSA.o
+RUN: ./RSA.o
+	
+c.	TEST PLAN, RUN, OUTPUT
+	
+	p=11, q=3, e=7, m=5, c=14
+	p=17, q=11, e=7, m=88, c=11
+
+	Works according to expected tests.
+	
+d.	LIMITATIONS
+There are no known limitations; program is outputting the results as expected.

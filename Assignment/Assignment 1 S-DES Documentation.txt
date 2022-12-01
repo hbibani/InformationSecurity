@@ -1,0 +1,23 @@
+a.	IDENTIFICATION
+
+Name: Heja Bibani
+Student No: 16301173
+Subject: Information Security
+Project: Assignment 1
+
+b.	INSTRUCTIONS:
+
+COMPILE: gcc SDES.c -o SDES.o
+RUN: ./SDES.o
+	
+c.	TEST PLAN, RUN, OUTPUT
+	
+Sample test data:
+10 bits key: 1000100011, P=00100100, K1=10100010, K2=00011011, C=00001010
+10 bits key: 1010101010, P=10101010, K1=11100100, K2=01010011, C=01101011
+10 bits key: 0010010011, P=10010010, K1=00100111, K2=01101010, C=01111100
+
+Works according to expected values.
+	
+d.	LIMITATIONS
+There are no known limitations; program is outputting the results as expected.
